@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grow India</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherish&family=Dancing+Script:wght@400..700&family=Estonia&family=Fuggles&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kalam:wght@300;400;700&family=Ojuju:wght@200..800&family=Pacifico&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css" />    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header section -->
+        <header class="main-header">
+            <div class="logo-holder">
+                <a href="#">
+                    <img src="img/growth.png" alt="business logo" width="50px" height="auto">
+                </a>
+            </div>
+            <div class="search-holder">
+                <form>
+                    <input type="search" name="s" placeholder="search here...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </header>
+        <!-- Menu Section -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="#">Services</a>
+                    <ul class="drop">
+                        <li><a href="services.html">Service one</a></li>
+                        <li><a href="services.html">Service two</a></li>
+                        <li><a href="services.html">Service three</a></li>
+                    </ul>
+                </li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <!--product section -->
+        <section class="product-holder">
+            <article class="product">
+                <img src="https://placehold.co/600x315" alt="">
+                <h2>Product one</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab dolorum voluptatum quaerat nulla molestias aliquid facilis</p>
+                <a href="#">Read more</a>
+            </article>
+            <article class="product">
+                <img src="https://placehold.co/600x315" alt="">
+                <h2>Product two</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab dolorum voluptatum quaerat nulla molestias aliquid facilis</p>
+                <a href="#">Read more</a>
+            </article>
+            <article class="product">
+                <img src="https://placehold.co/600x315" alt="">
+                <h2>Product three</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab dolorum voluptatum quaerat nulla molestias aliquid facilis</p>
+                <a href="#">Read more</a>
+            </article>
+            <article class="product">
+                <img src="https://placehold.co/600x315" alt="">
+                <h2>Product four</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab dolorum voluptatum quaerat nulla molestias aliquid facilis</p>
+                <a href="#">Read more</a>
+            </article>
+            <article class="product">
+                <img src="https://placehold.co/600x315" alt="">
+                <h2>Product five</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab dolorum voluptatum quaerat nulla molestias aliquid facilis</p>
+                <a href="#">Read more</a>
+            </article>
+            <article class="product">
+                <img src="https://placehold.co/600x315" alt="">
+                <h2>Product six</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab dolorum voluptatum quaerat nulla molestias aliquid facilis</p>
+                <a href="#">Read more</a>
+            </article>
+        </section>
+
+        <!-- Footer Section -->
+        <section class="footer-widget-holder">
+            <div class="footer-widget">
+                <a href="#">
+                    <img src="img/growth.png" alt="" width="60px" height="auto">
+                </a>
+
+                <h3>Address</h3>
+                <address>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam at soluta non quo.
+                </address>
+            </div>
+            <div class="footer-widget">
+                <h4>SideMap</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-widget">
+                <h4>SideMap</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-widget">
+                <h4>SideMap</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- Main footer site -->
+        <footer class="footer-site">
+            <p><small>Copyright &copy; 2024</small></p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#adaptive').lightSlider({
+                adaptiveHeight:true,
+                item:1,
+                slideMargin:0,
+                loop:true
+            });
+        });
+    </script>
+</body>
+</html>
